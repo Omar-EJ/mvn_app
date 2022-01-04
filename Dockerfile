@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD ./target/webAppExample.jar webAppExample.jar
-ENTRYPOINT ["java","-jar","/webAppExample.jar"]
+ADD ./target/mvn_app.jar mvn_app.jar
+ENTRYPOINT ["java","-jar","/mvn_app.jar"]
